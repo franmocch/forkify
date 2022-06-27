@@ -1,6 +1,6 @@
 import View from './View.js';
 import icons from '../../img/icons.svg';
-import { Fraction } from 'fractional';
+import { Fraction } from '../libraryHelper/fractional/index.js';
 
 class recipeView extends View {
   _parentElement = document.querySelector('.recipe');
